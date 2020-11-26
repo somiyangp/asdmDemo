@@ -10,3 +10,5 @@ git add -A ============to add all the files and directories to the staging area
 git rm --cached <filename>========== to remove file from staging area
 git rm -r --cached <directoryName>==========to remove directory from the staging area
 git commit -m "Message"============to commit the changes in local repository
+git remote add origin "url of your github repository"===========to set the origin of the repository where you want your data to be saved
+git push origin master==========to add(push) the committed files to the github repository
