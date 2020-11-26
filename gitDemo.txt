@@ -1,0 +1,16 @@
+git config --global user.name==========to set github user
+git config --global user.email==========to set github email
+git init==========to initialize the repository
+git status==========to get the status information of the current repository
+git add===========this command updates the index using the current content found in the working tree and then prepares the content in the staging area for the next commit
+
+git add <filename>=========== to add specific file in the staging area
+git add <DirectoryName>=========== to add directory with all files in the staging area
+git add -A ============to add all the files and directories to the staging area
+git rm --cached <filename>========== to remove file from staging area
+git rm -r --cached <directoryName>==========to remove directory from the staging area
+git commit -m "Message"============to commit the changes in local repository
+git remote add origin "url of your github repository"===========to set the origin of the repository where you want your data to be saved
+git push origin master==========to add(push) the committed files to the github repository
+gir reset <commitString from log> ========to unstage the file without affecting the content of the file
+git diff --staged
