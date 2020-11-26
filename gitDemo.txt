@@ -16,3 +16,4 @@ gir reset <commitString from log> ========to unstage the file without affecting 
 git diff --staged==========shows difference between the files in staging area and the current version of that file
 git diff============shows file differences which are not yet staged
 git clone url==============used to obtain or save a repository from the given url
+git
