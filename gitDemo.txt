@@ -21,6 +21,10 @@ git branch <branchname>========creates a branch
 git branch -a =======shows all the braches including origin set to which branch
 git checkout <branchname> ========== makes the branch as active branch
 git branch -d <branchname> ===== deletes the branch    
-git log --oneline --decorate =====to get log info in one line and decorated fashion     
+git log --oneline --decorate =====to get log info in one line and decorated fashion  
+from the master branch---->
+git merge <branchname>== to join the depelopment histories together
+git ls-files====== list name of all the files in the current git repository
+   
 
 	**********************************EOF***************************************
