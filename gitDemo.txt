@@ -16,6 +16,10 @@ gir reset <commitString from log> ========to unstage the file without affecting 
 git diff --staged==========shows difference between the files in staging area and the current version of that file
 git diff============shows file differences which are not yet staged
 git clone url==============used to obtain or save a repository from the given url
-                
+git branch=======shows the branches(except remote origin head and master )
+git branch <branchname>========creates a branch
+git branch -a =======shows all the braches including origin set to which branch
+git branch -d <branchname> ===== deletes the branch    
+git log --oneline --decorate =====to get log info in one line and decorated fashion     
 
 	**********************************EOF***************************************
